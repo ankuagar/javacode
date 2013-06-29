@@ -162,8 +162,9 @@ public class LinkedList2<T extends Comparable<T>> implements Iterable<T> {
 		}
 		
 		
-		public void remove() throws UnsupportedOperationException {
+		public void remove() {
 		
+		        throw new UnsupportedOperationException();
 		
 		}
 		
